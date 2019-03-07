@@ -1,0 +1,40 @@
+{
+  "name": "strapi-provider-upload-azure",
+  "version": "3.0.0-alpha.24.1",
+  "description": "Azure blob provider for strapi upload",
+  "homepage": "http://strapi.io",
+  "keywords": [
+    "upload",
+    "azure",
+    "blob",
+    "strapi"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "@azure/storage-blob": "^10.3.0",
+    "jimp": "^0.6.0"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "author": {
+    "email": "p.petkov@zaralab.org",
+    "name": "Petko Petkov",
+    "url": "https://www.zaralab.org"
+  },
+  "maintainers": [
+    {
+      "name": "Zaralab team",
+      "email": "info@zaralab.org",
+      "url": "https://www.zaralab.org"
+    }
+  ],
+  "engines": {
+    "node": ">= 10.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "license": "MIT"
+}
