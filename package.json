@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-upload-azure",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Azure blob provider for strapi upload",
   "repository": "https://github.com/zaralab-org/strapi-provider-upload-azure",
   "homepage": "http://strapi.io",
